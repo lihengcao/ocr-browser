@@ -8,7 +8,9 @@
     <canvas id="canvas" width="280" height="280" style="border: 2px solid; height: 280px; width: 280px;"></canvas>
     <br><br>
     <button onclick="predict_character();" id="predict_button" style="border: 2px solid;">Predict character</button>
-    <button onclick="clear_canvas();" id="clear_button" style="border: 2px solid;">Clear Canvas</button>
+    <button onclick="clear_canvas();" id="clear_button" style="border: 2px solid;">Clear Canvas</button><br><br>
+    
+    <p1>Prediction: </p1><p1 id="prediction-display"></p1>
   </body>
 
   <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
